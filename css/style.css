@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/*------------------header----------------*/
+header {
+  padding-left: 100px;
+  padding-right: 140px;
+  height: 135px;
+  background-color: #F6F6F6;
+  border: 1px solid #ABABAB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.dwg {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+header ul {
+  word-spacing: 30px;
+}
+header ul li {
+  display: inline;
+}
+h2 {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+}
+h2 span {
+  font-family: 'Righteous', cursive;
+}
+/* ----------------header-----------------*/
+.wrapper {
+  max-width: 80%;
+  margin: auto;
+}
+.marks {
+  height: 175px;
+  justify-content: space-between;
+  display: flex;
+}
+.marks img {
+  margin: auto 0;
+
+}
+.main {
+  height: 60vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/white_car.jpg);
+  background-size: cover;
+}
+.main_text {
+  color: #fff;
+  padding: 170px 0 0 70px;
+
+}
+button {
+  border: 0;
+  font-family: 'Exo 2', sans-serif;
+  width: 200px;
+  height: 50px;
+  margin-top: 25px;
+  background-color: #E1251B;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: .1s all;
+}
+button:hover {
+  background-color: #FFF;
+  color: #E1251B;
+}
+.main_text p {
+  margin-right: 70px;
+  float: right;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: right;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 48px;
+}
+h1 span {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+}
+
+/*----------------shop---------------*/
+
+#shopwrapper {
+}
+#shopwrapper button {
+  margin: 0;
+}
+#shopwrapper button:hover {
+  border: 1px solid #000000;
+}
+#shopwrapper .marks {
+  height: 216px;
+  align-items: center;
+}
+h3 {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 40px;
+}
+h3 span {
+  color: #E1251B;
+}
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+.carcard {
+  width: 330px;
+  height: 334px;
+  padding: 9px;
+}
+.carcard:hover {
+  transition: .1s all;
+  box-shadow: 4px 4px 19px 2px rgba(0, 0, 0, 0.25);
+}
+.carcard img {
+  width: 330px;
+  max-height: 140px;
+}
+h5 {
+  font-size: 25px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: normal;
+}
+.carcard p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: none;
+}
+.carcard p span {
+  color: #E1251B;
+}
+.oldprice {
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration-line: line-through;
+  text-transform: lowercase;
+  color: #C4C4C4;
+}
+.newprice {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: lowercase;
+}
+
+/*-------------------about----------------*/
+
+.blackcar {
+  margin-top: 35px;
+  height: 600px;
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/black_car.png);
+  background-size: cover;
+  display: flex;
+  color: #FFF;
+  justify-content: space-between;
+}
+#leftabout {
+  margin-left: 320px;
+}
+#rightabout {
+  margin-right: 320px;
+}
+.about {
+  text-align: center;
+  margin: auto 0;
+}
+.about span {
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 68px;
+  line-height: 84px;
+  transition: .5s all;
+}
+.about p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+#leftabout:hover .leftnumb {
+   text-shadow: 0 0 15px #ffffff;
+   transition: .5s all;
+}
+#middleabout:hover .middlenumb {
+   text-shadow: 0 0 15px #ffffff;
+   transition: .5s all;
+}
+#rightabout:hover .rightnumb {
+   text-shadow: 0 0 15px #ffffff;
+   transition: .5s all;
+}
+#noscroll {
+  overflow: hidden;
+}
+.aboutbox{
+  display: flex;
+  justify-content: space-between;
+}
+.pillar {
+  margin-top: 60px;
+}
+.pillar ul {
+  list-style-type: none;
+}
+.pillar span {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #E1251B;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.pillar li {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7C7C7C;
+  text-transform: capitalize;
+}
